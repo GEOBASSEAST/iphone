@@ -19,7 +19,7 @@
 
             .nav {
                 width: 100%;
-                height: 250px;
+                height: 500px;
                 overflow: hidden;
                 background: url(img/header-bg.jpg) no-repeat center center;
                 background-size: cover;
@@ -29,7 +29,7 @@
             
             .but button {
                 background-color: rgb(197, 197, 11);
-                width: 100px;
+                width: 200px;
                 height: 50px;
                 border-radius: 5px;
                 
@@ -361,6 +361,14 @@
             @media only screen and (max-width: 390px) {
 
              .nav {
+                flex-direction:column;
+             }
+
+             .navi {
+                flex-direction: column;
+             }
+
+             .navig {
                 flex-direction: column;
              }
 
@@ -427,14 +435,6 @@
             }
 
 
-
-
-
-
-
-             
-
-
             }
             /*.col-1 {width: 8.33%;}
             .col-2 {width: 16.66%;}
@@ -457,6 +457,7 @@
         
         <div class="flex-container">
         <div class="nav">
+            <div class="navig">
             <nav>
                 <img src="img/comm-1.png"/ width="">
                 <a href="https://commschool.ge/contact/" class="active">CONTACT</a>
@@ -464,6 +465,7 @@
                 <a href="https://commschool.ge/aboutus/" class="active">ABOUT</a>
                 <a href="https://commschool.ge/" class="active">TEAM</a>
                 <a href="https://commschool.ge/programirebis-marketingisa-da-dizainis-kursebi/" class="active">PORTFOLIO</a>
+            </div>
                 <div class="navi">
                 <i>Welcome To Our Academy!</i>
                 <h1>IT'S NICE TO MEET YOU</h1>
@@ -734,6 +736,11 @@
 
         </div>
         </div>
+
+
+        <script>
+            alert('Waaazaaaaaaaaaaaap?')
+        </script>
     
     
     </body>
